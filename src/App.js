@@ -1,16 +1,30 @@
+
 import Navbar from './Components/Nav/Navbar';
 import Home from './Pages/Home/Home';
 import Footer from './Components/Footer/Footer';
+import Product from './Pages/Product';
+import ProductItem from './Pages/ProductItem';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Footer/>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Navbar />
+			<Home />
+			<Footer />
+			<Routes>
+				<Route
+					path='/Proudct'
+					element={<Product />}
+				/>
+				<Route
+					path='/ProductItem'
+					element={<ProductItem />}
+				/>
+			</Routes>
+		</div>
+	);
 }
 
 export default App;
