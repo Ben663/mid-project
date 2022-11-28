@@ -1,0 +1,21 @@
+.footer-container{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(64, 117, 138);
+    height: 27.6vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container ul{
+    list-style: none;
+}
+.container li{
+    font-size: 17px;
+}
