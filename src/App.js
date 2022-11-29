@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Router, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './Common/Header/Header';
 import Store from './Pages/Store';
 import Data from './Components/Data';
@@ -13,7 +13,7 @@ function App() {
 	const { shopItems } = Sdata;
 	const [CartItem, setCartItem] = useState([]);
 	const addToCart = (product) => {
-		const productExit = CartItem.find((item) => item.id === product.id)
+		const productExit = CartItem.find((item) => item.id === product.id);
 		if (productExit) {
 			setCartItem(
 				CartItem.map((item) =>
@@ -42,26 +42,29 @@ function App() {
 	};
 	return (
 		<>
+			<Header CartItem={CartItem} />
 			<Routes>
-				<Header CartItem={CartItem} />
-				<Router>
-					<Route path='/'>
+				<Route
+					path='/'
+					element={
 						<Store
 							productItems={productItems}
 							addToCart={addToCart}
 							shopItems={shopItems}
 						/>
-					</Route>
-					<Route path='/cart'>
+					}/>
+				<Route
+					path='/cart'
+					element={
 						<Cart
 							CartItem={CartItem}
 							addToCart={addToCart}
 							decreaseQty={decreaseQty}
 						/>
-					</Route>
-				</Router>
-				<Footer />
+					}/>
 			</Routes>
+
+			<Footer />
 		</>
 	);
 }

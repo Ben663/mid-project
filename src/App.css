@@ -60,7 +60,7 @@ li {
   text-align-last: right;
 }
 
-input,
+.input,
 button {
   border: none;
   outline: none;
@@ -226,7 +226,6 @@ button {
   opacity: 1;
 }
 
-/*---------product-----------*/
 /*----- control btn -------*/
 .control-btn .next,
 .control-btn .prev {
@@ -263,7 +262,6 @@ button {
   cursor: pointer;
 }
 
-/*----- control btn -------*/
 /*----- heading -------*/
 .heading .heading-left i {
   font-size: 30px;
