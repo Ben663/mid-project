@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from 'axios'
 
-const baseUrl = 'https://6376811b81a568fc25008972.mockapi.io/store';
+const baseUrl = 'https://6376811b81a568fc25008972.mockapi.io/store/Air-store';
 
 const UseFetch = () => {
     const [state, setState] = useState(null);
@@ -48,7 +48,7 @@ const UseFetch = () => {
         }
         setIsLoading(false);
     }
-    return [state, error, isLoading, Create, Update, Delete, ReadById];
+    return [Create, Update, Delete, ReadById, state, error, isLoading];
 }
 
 export { UseFetch };

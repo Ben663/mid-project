@@ -1,11 +1,11 @@
-import axios from 'axios'
 import { useState, useEffect } from 'react';
+import axios from 'axios'
 
 
-const baseUrl = 'https://6376811b81a568fc25008972.mockapi.io/store';
+const baseUrl = 'https://6376811b81a568fc25008972.mockapi.io/store/Air-store';
 
 const UseApi = () => {
-    console.log(baseUrl);
+    // console.log(baseUrl);
     const [state, setState] = useState(null)
     const [error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
