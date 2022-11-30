@@ -1,4 +1,4 @@
-import img1 from './Assets/Img/Flash/flash-1.png';
+import img1 from './Assets/Img/SlideCard/slide-1.png';
 import img2 from './Assets/Img/SlideCard/slide-3.png';
 
 const Data = {
