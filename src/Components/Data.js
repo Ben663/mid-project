@@ -1,44 +1,43 @@
+import img1 from './Assets/Img/Flash/flash-1.png';
+import img2 from './Assets/Img/Flash/flash-2.png';
+import img3 from './Assets/Img/Flash/flash-3.png';
+import img4 from './Assets/Img/Flash/flash-4.png';
+import img5 from './Assets/Img/Flash/flash-5.png';
+
 const Data = {
 	productItems: [
 		{
 			id: 1,
 			discount: 50,
-			cover: './images/flash/flash-1.png',
+			cover: img1,
 			name: 'Shoes',
 			price: 100,
 		},
 		{
 			id: 2,
 			discount: 40,
-			cover: './images/flash/flash-2.png',
+			cover: img2,
 			name: 'Watch',
 			price: 20,
 		},
 		{
 			id: 3,
 			discount: 40,
-			cover: './images/flash/flash-3.png',
+			cover: img3,
 			name: 'Smart Mobile Black',
 			price: 200,
 		},
 		{
 			id: 4,
 			discount: 40,
-			cover: './images/flash/flash-4.png',
+			cover: img4,
 			name: 'Smart Watch Black',
 			price: 50,
 		},
 		{
 			id: 5,
 			discount: 50,
-			cover: './images/flash/flash-1.png',
-			name: 'Shoes',
-			price: 100,
-		},
-		{
-			id: 6,
-			discount: 50,
-			cover: './images/flash/flash-3.png',
+			cover: img5,
 			name: 'Shoes',
 			price: 100,
 		},

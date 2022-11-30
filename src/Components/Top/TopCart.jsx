@@ -1,24 +1,22 @@
-import React from 'react'
-import Slider from 'react-slick'
+import React from 'react';
+// import Slider from 'react-slick';
 import Tdata from './Tdata';
 
 const TopCart = () => {
-	const settings = {
-		dots: false,
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		autoplay: true,
-	};
+	// const settings = {
+	// 	dots: false,
+	// 	infinite: true,
+	// 	slidesToShow: 3,
+	// 	slidesToScroll: 1,
+	// 	autoplay: true,
+	// };
 	return (
 		<>
-			<Slider {...settings}>
+			 {/* {...settings} */}
 				{Tdata.map((value, index) => {
 					return (
-						<>
-							<div
-								className='box product'
-								key={index}>
+						<React.Fragment key={index}>
+							<div className='box product'>
 								<div className='nametop d_flex'>
 									<span className='tleft'>{value.para}</span>
 									<span className='tright'>{value.desc}</span>
@@ -30,10 +28,10 @@ const TopCart = () => {
 									/>
 								</div>
 							</div>
-						</>
+						</React.Fragment>
 					);
 				})}
-			</Slider>
+			
 		</>
 	);
 };

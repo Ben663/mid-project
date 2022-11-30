@@ -8,7 +8,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
 
 	return (
 		<>
-			{shopItems?.map((shopItems, index) => {
+			{shopItems?.map((shopItems) => {
 				return (
 					<div className='box'>
 						<div className='product mtop'>

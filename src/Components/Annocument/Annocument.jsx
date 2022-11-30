@@ -16,20 +16,22 @@ const Annocument = () => {
 					<div
 						className='img'
 						style={mystyle}>
-						{/* <img
-							src='./Images/banner-1.png'
+						<img
+							src='./Assets/Img/banner-1.png'
 							width='100%'
 							height='100%'
-						/> */}
+							alt=''
+						/>
 					</div>
 					<div
 						className='img'
 						style={mystyle1}>
-						{/* <img
-							src='./images/banner-2.png'
+						<img
+							src='./Assets/Img/banner-2.png'
 							width='100%'
 							height='100%'
-						/> */}
+							alt=''
+						/>
 					</div>
 				</div>
 			</section>

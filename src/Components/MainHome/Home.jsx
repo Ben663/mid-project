@@ -1,6 +1,7 @@
 import React from 'react';
 import Categories from './Categories';
-import SliderHome from './Slider';
+import Data from '../Data';
+// import SliderHome from './Slider';
 import './Home.css';
 
 const Home = () => {
@@ -9,7 +10,10 @@ const Home = () => {
 			<section className='home'>
 				<div className='container d_flex'>
 					<Categories />
-					<SliderHome />
+					{Data.productItems.map((img) => {
+						return <img key={Data.productItems.id} src={img.cover} alt=''/>;
+					})}
+					{/* <SliderHome /> */}
 				</div>
 			</section>
 		</>

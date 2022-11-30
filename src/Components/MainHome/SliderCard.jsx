@@ -1,22 +1,22 @@
-import React from 'react'
-import Sdata from './Sdata'
+import React from 'react';
+import Sdata from './Sdata';
 
-import Slider from 'react-slick'
+// import Slider from 'react-slick';
 
 const SlideCard = () => {
-	const settings = {
-		dots: true,
-		infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: true,
-		appendDots: (dots) => {
-			return <ul style={{ margin: '0px' }}>{dots}</ul>;
-		},
-	};
+	// const settings = {
+	// 	dots: true,
+	// 	infinite: true,
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	autoplay: true,
+	// 	appendDots: (dots) => {
+	// 		return <ul style={{ margin: '0px' }}>{dots}</ul>;
+	// 	},
+	// };
 	return (
 		<>
-			<Slider {...settings}>
+			 {/* {...settings} */}
 				{Sdata.map((value, index) => {
 					return (
 						<>
@@ -38,7 +38,7 @@ const SlideCard = () => {
 						</>
 					);
 				})}
-			</Slider>
+			
 		</>
 	);
 };

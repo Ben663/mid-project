@@ -52,7 +52,19 @@ function App() {
 							addToCart={addToCart}
 							shopItems={shopItems}
 						/>
-					}/>
+					}
+				/>
+				<Route
+					path='/Store'
+					element={
+						<Store
+							productItems={productItems}
+							addToCart={addToCart}
+							shopItems={shopItems}
+							CartItem={CartItem}
+						/>
+					}
+				/>
 				<Route
 					path='/cart'
 					element={
@@ -61,7 +73,8 @@ function App() {
 							addToCart={addToCart}
 							decreaseQty={decreaseQty}
 						/>
-					}/>
+					}
+				/>
 			</Routes>
 
 			<Footer />

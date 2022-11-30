@@ -1,4 +1,4 @@
-const Sdata = [
+const Hdata = [
 	{
 		id: 1,
 		title: '50% Off For Your First Shopping',
@@ -24,4 +24,4 @@ const Sdata = [
 		cover: './Assets/Img/SlideCard/slide-4.png',
 	},
 ];
-export default Sdata;
+export default Hdata;
