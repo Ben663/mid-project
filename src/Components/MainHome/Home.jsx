@@ -11,7 +11,7 @@ const Home = () => {
 				<div className='container d_flex'>
 					<Categories />
 					{Data.productItems.map((img) => {
-						return <img key={Data.productItems.id} src={img.cover} alt=''/>;
+						return <img key={Data.productItems.id} src={img.cover} alt=''/>
 					})}
 					{/* <SliderHome /> */}
 				</div>

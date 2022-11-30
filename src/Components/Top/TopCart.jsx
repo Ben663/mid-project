@@ -12,10 +12,11 @@ const TopCart = () => {
 	// };
 	return (
 		<>
-			 {/* {...settings} */}
-				{Tdata.map((value, index) => {
-					return (
-						<React.Fragment key={index}>
+			{/* {...settings} */}
+			{Tdata.map((value, index) => {
+				return (
+					<div className='main'>
+						<React.Fragment>
 							<div className='box product'>
 								<div className='nametop d_flex'>
 									<span className='tleft'>{value.para}</span>
@@ -25,13 +26,14 @@ const TopCart = () => {
 									<img
 										src={value.cover}
 										alt=''
+										
 									/>
 								</div>
 							</div>
 						</React.Fragment>
-					);
-				})}
-			
+					</div>
+				);
+			})}
 		</>
 	);
 };
