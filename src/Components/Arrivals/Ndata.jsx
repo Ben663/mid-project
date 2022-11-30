@@ -1,34 +1,38 @@
-
+import Assets from '../Assets/Img/Arrivals/arrivals1.png';
+import Assets1 from '../Assets/Img/Arrivals/arrivals2.png';
+import Assets2 from '../Assets/Img/Arrivals/arrivals3.png';
+import Assets3 from '../Assets/Img/Arrivals/arrivals4.png';
+import Assets4 from '../Assets/Img/Arrivals/arrivals5.png';
 const Ndata = [
 	{
-		cover: './Assets/Img/Arrivals/arrivals1.png',
+		cover: Assets,
 		name: 'Sunglass',
 		price: '150',
 	},
 	{
-		cover: './Assets/Img/Arrivals/arrivals2.png',
+		cover: Assets1,
 		name: 'Makeup',
 		price: '250',
 	},
 	{
-		cover: './Assets/Img/Arrivals/arrivals3.png',
+		cover: Assets2,
 		name: 'Smart Watch',
 		price: '50',
 	},
 	{
-		cover: './Assets/Img/Arrivals/arrivals4.png',
+		cover: Assets3,
 		name: 'Lipstick',
 		price: '15',
 	},
 	{
-		cover: './Assets/Img/Arrivals/arrivals5.png',
+		cover: Assets4,
 		name: 'Green Plant',
 		price: '10',
 	},
 	{
-		cover: './Assets/Img/Arrivals/arrivals2.png',
-		name: 'Bonsai tree',
-		price: '400',
+		cover: Assets4,
+		name: 'Bonsai',
+		price: '40',
 	},
 ];
 

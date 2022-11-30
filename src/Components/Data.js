@@ -1,8 +1,6 @@
-import img1 from './Assets/Img/Flash/flash-1.png';
-import img2 from './Assets/Img/Flash/flash-2.png';
-import img3 from './Assets/Img/Flash/flash-3.png';
-import img4 from './Assets/Img/Flash/flash-4.png';
-import img5 from './Assets/Img/Flash/flash-5.png';
+import img1 from './Assets/Img/Top/category-1.png';
+import img2 from './Assets/Img/Top/category-2.png';
+import img3 from './Assets/Img/Top/category-3.png';
 
 const Data = {
 	productItems: [
@@ -26,20 +24,6 @@ const Data = {
 			cover: img3,
 			name: 'Smart Mobile Black',
 			price: 200,
-		},
-		{
-			id: 4,
-			discount: 40,
-			cover: img4,
-			name: 'Smart Watch Black',
-			price: 50,
-		},
-		{
-			id: 5,
-			discount: 50,
-			cover: img5,
-			name: 'Shoes',
-			price: 100,
 		},
 	],
 };

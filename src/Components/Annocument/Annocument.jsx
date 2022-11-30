@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Assets from '../Assets/Img/banner-1.png'; 
+import Assets1 from '../Assets/Img/banner-2.png'; 
 const Annocument = () => {
 	const mystyle = {
 		width: '30%',
@@ -17,7 +18,7 @@ const Annocument = () => {
 						className='img'
 						style={mystyle}>
 						<img
-							src='./Assets/Img/banner-1.png'
+							src= {Assets}
 							width='100%'
 							height='100%'
 							alt=''
@@ -27,7 +28,7 @@ const Annocument = () => {
 						className='img'
 						style={mystyle1}>
 						<img
-							src='./Assets/Img/banner-2.png'
+							src={Assets1}
 							width='100%'
 							height='100%'
 							alt=''

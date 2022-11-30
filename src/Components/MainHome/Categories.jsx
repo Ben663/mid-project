@@ -1,47 +1,53 @@
+import Assets from '../Assets/Img/Category/cat1.png'
+import Assets1 from '../Assets/Img/Category/cat2.png'
+import Assets3 from '../Assets/Img/Category/cat4.png'
+import Assets4 from '../Assets/Img/Category/cat5.png'
+import Assets5 from '../Assets/Img/Category/cat6.png'
+import Assets6 from '../Assets/Img/Category/cat7.png'
+import Assets7 from '../Assets/Img/Category/cat8.png'
+import Assets8 from '../Assets/Img/Category/cat9.png'
+import Assets9 from '../Assets/Img/Category/cat10.png'
+import Assets10 from '../Assets/Img/Category/cat11.png'
 const Categories = () => {
 	const data = [
 		{
-			cateImg: './Assets/Img/Category/cat1.png',
+			cateImg: Assets,
 			cateName: 'Fashion',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat2.png',
+			cateImg: Assets1,
 			cateName: 'Electronic',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat3.png',
-			cateName: 'Cars',
-		},
-		{
-			cateImg: './Assets/Img/Category/cat4.png',
+			cateImg: Assets3,
 			cateName: 'Home & Garden',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat5.png',
+			cateImg: Assets4,
 			cateName: 'Gifts',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat6.png',
+			cateImg: Assets5,
 			cateName: 'Music',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat7.png',
+			cateImg: Assets6,
 			cateName: 'Health & Beauty',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat8.png',
+			cateImg: Assets7,
 			cateName: 'Pets',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat9.png',
+			cateImg: Assets8,
 			cateName: 'Baby Toys',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat10.png',
+			cateImg: Assets9,
 			cateName: 'Groceries',
 		},
 		{
-			cateImg: './Assets/Img/Category/cat11.png',
+			cateImg: Assets10,
 			cateName: 'Books',
 		},
 	];
