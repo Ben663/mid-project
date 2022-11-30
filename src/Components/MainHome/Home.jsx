@@ -7,11 +7,17 @@ import './Home.css';
 const Home = () => {
 	return (
 		<>
-			<section className='home'>
-				<div className='container d_flex'>
+			<section className='home' >
+				<div className='container d_flex' >
 					<Categories />
-					{Data.productItems.map((img) => {
-						return <img key={Data.productItems.id} src={img.cover} alt=''/>
+					{Data.productItems.map((img, index) => {
+						return (
+							<img
+								key={index}
+								src={img.cover}
+								alt=''
+							/>
+						);
 					})}
 					{/* <SliderHome /> */}
 				</div>

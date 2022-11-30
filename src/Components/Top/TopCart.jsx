@@ -15,7 +15,7 @@ const TopCart = () => {
 			{/* {...settings} */}
 			{Tdata.map((value, index) => {
 				return (
-					<div className='main'>
+					<div className='main' key={index}>
 						<React.Fragment>
 							<div className='box product'>
 								<div className='nametop d_flex'>
